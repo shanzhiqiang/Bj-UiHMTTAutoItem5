@@ -1,0 +1,4 @@
+mp_article001:
+  title: bj-test17-004
+  content: 今天晚上炖火锅！
+  expect: 新增文章成功
