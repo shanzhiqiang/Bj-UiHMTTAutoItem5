@@ -20,4 +20,4 @@ class TestArticle:
 
     def test_app_article(self):
         #调用查找文章方法
-        self.article.page_app_article(find_text="android",title_text="减肥")
+        self.article.page_app_article(find_text="python",title_text="python")
