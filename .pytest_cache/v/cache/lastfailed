@@ -1,0 +1,8 @@
+{
+  "scripts/test004_mis_audit.py::TestMisAudit::()::test_article_audit": true,
+  "scripts/test006_app_article.py::TestArticle::()::test_app_article": true,
+  "scripts/test01_mp_login.py": true,
+  "scripts/test02_mp_article.py": true,
+  "scripts/test04_mis_audit.py": true,
+  "scripts/test06_app_article.py::TestArticle::()::test_app_article": true
+}

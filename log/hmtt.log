@@ -1,481 +1,441 @@
-2020-01-10 09:47:27,302 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="ec71f7656fe002916ef543809c1ef374")>
-2020-01-10 09:47:27,315 INFO [root] [page_mp_login.py (page_mp_login:34] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246810
-2020-01-10 09:47:27,316 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
-2020-01-10 09:47:27,357 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:47:27,401 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='请输入手机号']") 元素 执行输入操作：13812345678
-2020-01-10 09:47:27,549 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='验证码']")
-2020-01-10 09:47:27,564 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:47:27,596 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='验证码']") 元素 执行输入操作：246810
-2020-01-10 09:47:28,686 INFO [root] [base.py (base_click:32] - 正在对 ('xpath', "//*[text()='登录']/..") 元素 执行点击操作
-2020-01-10 09:47:28,686 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='登录']/..")
-2020-01-10 09:47:28,786 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user-name')
-2020-01-10 09:47:29,762 INFO [root] [base.py (base_get_text:37] - 正在获取('css selector', '.user-name')元素文本值：13812345678
-2020-01-10 09:47:29,762 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user-name')
-2020-01-10 09:48:02,184 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="cb0db5b61fe5491efeec80329267618b")>
-2020-01-10 09:48:02,185 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 09:48:02,217 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:48:02,252 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 09:48:02,367 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 09:48:02,383 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:48:02,416 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 09:48:02,497 INFO [root] [base.py (base_click:32] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 09:48:02,497 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 09:48:02,601 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
-2020-01-10 09:50:23,730 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="97a3ba562f811f34e1caffeedbfe0a01")>
-2020-01-10 09:50:23,732 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 09:50:23,761 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:50:23,797 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 09:50:23,894 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 09:50:23,911 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 09:50:23,943 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 09:50:24,021 INFO [root] [base.py (base_click:32] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 09:50:24,021 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 09:50:24,107 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
-2020-01-10 09:50:24,656 INFO [root] [base.py (base_get_text:37] - 正在获取('css selector', '.user_info>span')元素文本值：欢迎 管理员
-2020-01-10 09:50:24,656 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
-2020-01-10 10:15:14,555 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="f6e870ebaf5b739f670f851cdfc9c4b6")>
-2020-01-10 10:15:14,557 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 10:15:14,579 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 10:15:14,722 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 10:15:14,835 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 10:15:14,857 INFO [root] [base.py (base_input:23] - 正在执行清空操作
-2020-01-10 10:15:14,888 INFO [root] [base.py (base_input:26] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 10:15:14,976 INFO [root] [base.py (base_click:32] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 10:15:14,976 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 10:15:15,092 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
-2020-01-10 10:15:15,678 INFO [root] [base.py (base_get_text:37] - 正在获取('css selector', '.user_info>span')元素文本值：欢迎 管理员
-2020-01-10 10:15:15,679 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
-2020-01-10 15:01:44,901 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="60365273262762210c4217ea76c3f55c")>
-2020-01-10 15:01:44,902 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 15:01:44,932 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:01:44,969 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 15:01:45,054 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 15:01:45,108 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:01:45,143 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 15:01:45,238 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 15:01:45,238 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 15:01:45,341 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="60365273262762210c4217ea76c3f55c")>
-2020-01-10 15:02:15,989 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="25d210785e1fb182593a5816b8dade2a")>
-2020-01-10 15:02:15,990 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 15:02:16,065 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:02:16,210 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 15:02:16,300 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 15:02:16,323 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:02:16,371 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 15:02:16,475 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 15:02:16,476 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 15:02:16,630 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="25d210785e1fb182593a5816b8dade2a")>
-2020-01-10 15:04:11,627 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="3abc8d4a423be1543df2c4d93c168774")>
-2020-01-10 15:04:11,627 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 15:04:11,657 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:04:11,701 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 15:04:11,793 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 15:04:11,811 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:04:11,851 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 15:04:11,928 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 15:04:11,928 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 15:04:12,003 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="3abc8d4a423be1543df2c4d93c168774")>
-2020-01-10 15:04:14,007 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 15:04:14,007 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 15:04:16,083 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 15:04:16,083 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 15:04:16,355 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 15:04:16,374 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:04:16,416 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 15:04:16,624 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 15:04:16,649 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:04:16,686 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 15:04:16,777 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='请选择状态']") 元素 执行点击操作
-2020-01-10 15:04:16,777 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='请选择状态']")
-2020-01-10 15:05:40,034 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0ed2eec6dbb51ec74d2bf2789a4060c9")>
-2020-01-10 15:05:40,034 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 15:05:40,114 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:05:40,153 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 15:05:40,308 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 15:05:40,333 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:05:40,368 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 15:05:40,450 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 15:05:40,451 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 15:05:40,560 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0ed2eec6dbb51ec74d2bf2789a4060c9")>
-2020-01-10 15:05:42,566 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 15:05:42,566 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 15:05:44,697 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 15:05:44,697 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 15:05:44,885 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 15:05:44,911 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:05:44,938 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 15:05:45,133 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 15:05:45,148 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:05:45,187 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 15:05:45,261 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 15:05:45,261 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 15:05:47,486 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 15:05:48,287 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 15:05:48,288 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 15:05:48,401 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 15:05:48,401 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 15:05:48,527 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 15:05:48,527 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 15:06:35,430 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="2c224a7dce5b117ccf1ed50f582e50f0")>
-2020-01-10 15:06:35,431 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 15:06:35,465 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:06:35,495 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 15:06:35,573 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 15:06:35,588 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:06:35,622 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 15:06:35,696 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 15:06:35,697 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 15:06:35,764 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="2c224a7dce5b117ccf1ed50f582e50f0")>
-2020-01-10 15:06:37,765 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 15:06:37,765 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 15:06:39,855 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 15:06:39,855 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 15:06:40,045 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 15:06:40,067 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:06:40,099 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 15:06:40,307 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 15:06:40,325 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 15:06:40,355 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 15:06:40,419 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 15:06:40,419 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 15:06:42,514 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 15:06:43,227 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 15:06:43,228 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 15:06:43,344 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 15:06:43,344 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 15:06:43,487 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 15:06:43,487 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:10:45,669 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="7403e3039d5a84714724c93d5469e3d1")>
-2020-01-10 16:10:45,669 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:10:45,695 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:10:45,723 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:10:45,798 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:10:45,814 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:10:45,842 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:10:45,915 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:10:45,915 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:10:45,992 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="7403e3039d5a84714724c93d5469e3d1")>
-2020-01-10 16:10:47,995 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:10:47,995 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:10:50,083 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:10:50,083 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:10:50,290 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:10:50,308 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:10:50,335 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:10:50,553 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:10:50,573 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:10:50,601 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:10:50,667 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:10:50,668 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:10:52,860 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:10:53,561 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:10:53,561 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:10:53,666 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:10:53,666 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:10:53,795 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:10:53,795 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:30:48,172 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="eca4fe2a20bd81a43a863d9a4acae778")>
-2020-01-10 16:30:48,173 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:30:48,226 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:30:48,257 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:30:48,418 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:30:48,435 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:30:48,466 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:30:48,587 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:30:48,588 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:30:48,701 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="eca4fe2a20bd81a43a863d9a4acae778")>
-2020-01-10 16:30:50,703 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:30:50,703 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:30:52,827 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:30:52,827 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:30:53,141 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:30:53,168 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:30:53,209 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:30:53,797 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:30:53,819 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:30:53,869 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:30:53,998 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:30:53,998 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:30:56,142 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:30:56,982 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:30:56,982 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:30:57,137 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:30:57,201 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：2
-2020-01-10 16:30:57,201 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:30:57,233 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:30:57,233 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:30:57,407 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:30:57,407 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:31:03,237 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:31:03,267 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:31:03,342 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:31:03,593 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:31:03,609 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:31:03,740 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:31:03,862 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:31:03,862 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:31:05,978 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:31:06,708 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:31:06,709 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:31:06,833 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:31:06,883 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：2
-2020-01-10 16:31:06,884 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:31:09,907 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'2')]")
-2020-01-10 16:32:39,900 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="920c67b146b437317137ec1b6d36d38a")>
-2020-01-10 16:32:39,902 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:32:39,936 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:39,979 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:32:40,096 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:32:40,114 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:40,142 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:32:40,217 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:32:40,218 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:32:40,317 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="920c67b146b437317137ec1b6d36d38a")>
-2020-01-10 16:32:42,318 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:32:42,318 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:32:44,429 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:32:44,429 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:32:44,669 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:32:44,700 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:44,731 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:32:44,973 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:32:45,004 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:45,064 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:32:45,304 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:32:45,304 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:32:47,450 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:32:48,292 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:32:48,292 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:32:51,438 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:32:51,488 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1215546474146824192
-2020-01-10 16:32:51,489 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:32:51,514 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:32:51,514 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:32:51,667 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:32:51,668 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:32:57,323 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:32:57,353 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:57,396 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:32:57,647 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:32:57,658 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:32:57,700 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:32:57,840 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:32:57,840 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:32:59,998 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:33:00,705 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:33:00,706 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:33:03,836 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:33:03,874 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1214848806420480000
-2020-01-10 16:33:03,874 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:33:06,918 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'1214848806420480000')]")
-2020-01-10 16:36:23,819 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="e7780ba6eb8689bbae41c3a5bbba9e0f")>
-2020-01-10 16:36:23,820 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:36:23,857 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:23,890 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:36:23,957 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:36:23,972 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:24,006 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:36:24,071 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:36:24,072 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:36:24,150 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="e7780ba6eb8689bbae41c3a5bbba9e0f")>
-2020-01-10 16:36:26,152 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:36:26,152 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:36:28,256 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:36:28,256 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:36:28,527 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:36:28,548 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:28,590 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:36:29,085 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:36:29,107 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:29,137 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:36:29,251 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:36:29,251 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:36:31,389 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:36:32,211 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:36:32,211 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:36:35,341 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:36:35,387 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1215546540702040064
-2020-01-10 16:36:35,387 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:36:35,406 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:36:35,406 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:36:35,541 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:36:35,541 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:36:41,553 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:36:41,572 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:41,636 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-003
-2020-01-10 16:36:41,860 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:36:41,877 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:36:41,915 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:36:42,138 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:36:42,138 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:36:44,254 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:36:44,957 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:36:44,958 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:36:48,022 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'1215546540702040064')]")
-2020-01-10 16:38:42,303 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="2584fe9642341f91c1003a85c035a5d6")>
-2020-01-10 16:38:42,303 INFO [root] [page_mp_login.py (page_mp_login_success:41] - 正在调用自媒体登录成功业务方法，用户名：13812345678 密码：246810
-2020-01-10 16:38:42,304 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
-2020-01-10 16:38:42,324 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:38:42,414 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入手机号']") 元素 执行输入操作：13812345678
-2020-01-10 16:38:42,697 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='验证码']")
-2020-01-10 16:38:42,715 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:38:42,753 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='验证码']") 元素 执行输入操作：246810
-2020-01-10 16:38:43,879 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='登录']/..") 元素 执行点击操作
-2020-01-10 16:38:43,879 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='登录']/..")
-2020-01-10 16:38:43,966 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="2584fe9642341f91c1003a85c035a5d6")>
-2020-01-10 16:38:45,969 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//div[@class='menu-wrapper']//*[text()='内容管理']") 元素 执行点击操作
-2020-01-10 16:38:45,969 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//div[@class='menu-wrapper']//*[text()='内容管理']")
-2020-01-10 16:38:47,100 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[contains(text(),'发布文章')]") 元素 执行点击操作
-2020-01-10 16:38:47,100 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
-2020-01-10 16:38:47,219 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='文章名称']")
-2020-01-10 16:38:47,843 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:38:47,930 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='文章名称']") 元素 执行输入操作：bj-test17-004
-2020-01-10 16:38:48,374 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#publishTinymce_ifr')
-2020-01-10 16:38:48,413 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#tinymce')
-2020-01-10 16:38:48,432 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:38:48,460 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', '#tinymce') 元素 执行输入操作：今天晚上炖火锅！
-2020-01-10 16:38:48,651 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='自动']") 元素 执行点击操作
-2020-01-10 16:38:48,651 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='自动']")
-2020-01-10 16:38:48,747 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', "[placeholder='请选择']") 元素 执行点击操作
-2020-01-10 16:38:48,748 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请选择']")
-2020-01-10 16:38:49,879 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='数据库']") 元素 执行点击操作
-2020-01-10 16:38:49,879 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='数据库']")
-2020-01-10 16:38:50,002 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button.filter-item.el-button--primary') 元素 执行点击操作
-2020-01-10 16:38:50,002 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary')
-2020-01-10 16:38:50,206 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]")
-2020-01-10 16:38:50,804 INFO [root] [base.py (base_get_text:42] - 正在获取('xpath', "//*[contains(text(),'成功')]")元素文本值：新增文章成功
-2020-01-10 16:38:50,805 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]")
-2020-01-10 16:39:01,926 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="a9991a5ab526ec4552ce7661349d6c73")>
-2020-01-10 16:39:01,926 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:39:02,000 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:39:02,039 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:39:02,123 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:39:02,146 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:39:02,180 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:39:02,247 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:39:02,248 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:39:02,355 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="a9991a5ab526ec4552ce7661349d6c73")>
-2020-01-10 16:39:04,356 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:39:04,356 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:39:06,468 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:39:06,468 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:39:06,667 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:39:06,694 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:39:06,728 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
-2020-01-10 16:39:06,974 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:39:06,989 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:39:07,019 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:39:07,213 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:39:07,213 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:39:09,319 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:39:10,158 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:39:10,158 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:39:13,312 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:39:40,020 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：2
-2020-01-10 16:39:40,020 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:39:40,041 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:39:40,042 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:39:40,185 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:39:40,186 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:41:01,234 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="67137d83160ee3cc3ecc54e2418b0bea")>
-2020-01-10 16:41:01,235 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 16:41:01,279 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:01,316 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 16:41:01,418 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 16:41:01,441 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:01,473 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 16:41:01,549 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 16:41:01,549 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 16:41:01,627 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="67137d83160ee3cc3ecc54e2418b0bea")>
-2020-01-10 16:41:03,628 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 16:41:03,628 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 16:41:05,718 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 16:41:05,718 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 16:41:05,980 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:41:06,011 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:06,042 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
-2020-01-10 16:41:06,259 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:41:06,275 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:06,308 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:41:06,515 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:41:06,515 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:41:08,641 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:41:09,630 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:41:09,630 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:41:12,845 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:41:12,892 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1215553916582756352
-2020-01-10 16:41:12,892 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 16:41:12,915 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 16:41:12,915 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 16:41:13,103 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 16:41:13,103 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
-2020-01-10 16:41:18,785 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 16:41:18,826 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:18,897 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
-2020-01-10 16:41:19,240 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 16:41:19,266 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 16:41:19,325 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 16:41:19,490 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 16:41:19,491 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 16:41:21,636 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 16:41:22,415 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 16:41:22,415 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 16:41:25,524 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'1215553916582756352')]")
-2020-01-10 17:01:13,152 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="a20cb592c4278fd34682874a4d76df11")>
-2020-01-10 17:01:13,153 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 17:01:13,200 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:01:13,235 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 17:01:13,349 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 17:01:13,363 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:01:13,393 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 17:01:13,471 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 17:01:13,472 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 17:01:13,564 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="a20cb592c4278fd34682874a4d76df11")>
-2020-01-10 17:01:15,565 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 17:01:15,565 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 17:01:17,646 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 17:01:17,646 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 17:01:17,874 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 17:01:17,899 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:01:17,937 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：('bj-test17-004', '今天晚上炖火锅！', '新增文章成功')
-2020-01-10 17:01:18,349 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 17:01:18,372 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:01:18,399 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 17:01:18,568 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 17:01:18,569 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 17:01:20,730 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 17:01:21,594 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 17:01:21,594 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 17:01:24,758 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 17:02:23,976 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="9cc7a9f21b7e5be4923ef923b592023e")>
-2020-01-10 17:02:23,977 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
-2020-01-10 17:02:24,013 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:02:24,058 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
-2020-01-10 17:02:24,166 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
-2020-01-10 17:02:24,180 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:02:24,206 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
-2020-01-10 17:02:24,287 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
-2020-01-10 17:02:24,287 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
-2020-01-10 17:02:24,386 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="9cc7a9f21b7e5be4923ef923b592023e")>
-2020-01-10 17:02:26,387 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
-2020-01-10 17:02:26,387 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
-2020-01-10 17:02:28,497 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
-2020-01-10 17:02:28,497 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
-2020-01-10 17:02:28,728 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
-2020-01-10 17:02:28,778 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:02:28,811 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
-2020-01-10 17:02:29,111 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
-2020-01-10 17:02:29,130 INFO [root] [base.py (base_input:28] - 正在执行清空操作
-2020-01-10 17:02:29,301 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
-2020-01-10 17:02:29,401 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
-2020-01-10 17:02:29,401 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
-2020-01-10 17:02:31,558 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
-2020-01-10 17:02:32,295 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
-2020-01-10 17:02:32,296 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
-2020-01-10 17:02:35,435 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 17:02:35,496 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1215558101466349568
-2020-01-10 17:02:35,496 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
-2020-01-10 17:02:35,518 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
-2020-01-10 17:02:35,519 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
-2020-01-10 17:02:35,647 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
-2020-01-10 17:02:35,647 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
+2020-01-11 10:49:23,254 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="dab2d3c8-db3c-419b-be9f-999aff6c56b5")>
+2020-01-11 10:49:23,268 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 10:49:26,773 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 10:49:28,351 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 10:49:33,208 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 10:49:33,239 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 10:49:34,422 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 10:49:39,296 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='1' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 10:49:39,296 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.Button']")
+2020-01-11 10:50:45,071 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="56e2725a-5a96-47be-a251-a0f71c08de4a")>
+2020-01-11 10:50:45,073 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 10:50:48,577 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 10:50:49,910 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 10:50:54,766 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 10:50:54,784 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 10:50:56,005 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 10:51:01,214 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 10:51:01,214 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 10:51:01,368 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='3' and contains(@text,'我的')]")
+2020-01-11 11:07:50,584 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="911daac3-d5ef-4f68-ac23-c51d31a95914")>
+2020-01-11 11:07:50,585 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 11:07:54,080 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 11:07:55,691 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 11:08:00,550 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 11:08:00,582 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 11:08:01,768 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 11:08:07,414 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 11:08:07,415 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 11:08:07,556 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='3' and contains(@text,'我的')]")
+2020-01-11 15:55:46,083 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="7bc92e74-1675-4f3c-ad52-3df0ae2bd790")>
+2020-01-11 15:55:46,083 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 15:55:49,988 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:55:51,572 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 15:55:56,465 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 15:55:56,490 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:55:57,664 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 15:56:02,900 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 15:56:02,900 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 15:56:03,027 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="7bc92e74-1675-4f3c-ad52-3df0ae2bd790")>
+2020-01-11 15:56:03,027 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 15:56:04,849 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:56:08,503 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:56:11,981 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:56:16,729 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:56:36,877 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="5c310061-2be9-4725-add2-c965f074c8e2")>
+2020-01-11 15:56:36,877 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 15:56:40,240 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:56:41,684 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 15:56:46,918 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 15:56:46,943 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:56:48,220 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 15:56:52,993 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 15:56:52,993 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 15:56:53,829 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="5c310061-2be9-4725-add2-c965f074c8e2")>
+2020-01-11 15:56:53,830 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 15:56:55,213 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:56:58,706 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:57:02,148 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:57:05,679 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:58:14,407 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="b7015370-c78f-4a1d-9c0c-1fbf68a44574")>
+2020-01-11 15:58:14,408 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 15:58:17,814 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:58:19,249 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 15:58:24,610 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 15:58:24,626 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 15:58:26,070 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 15:58:30,828 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 15:58:30,828 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 15:58:30,960 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="b7015370-c78f-4a1d-9c0c-1fbf68a44574")>
+2020-01-11 15:58:30,961 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 15:58:32,473 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:58:35,188 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:58:37,954 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 15:58:40,729 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 16:08:47,108 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="06ac88f1-5689-41a8-9dcb-9286b9560449")>
+2020-01-11 16:08:47,108 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 16:08:50,682 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 16:08:52,082 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 16:08:56,717 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 16:08:56,736 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 16:08:57,950 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 16:09:03,103 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 16:09:03,104 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 16:09:03,247 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="06ac88f1-5689-41a8-9dcb-9286b9560449")>
+2020-01-11 16:09:03,284 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 16:09:06,014 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 16:09:08,740 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(@text,'python')]")
+2020-01-11 17:07:49,593 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="1067c0c2-5ea9-4ea2-b3ed-3ca03cb3d483")>
+2020-01-11 17:07:49,594 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:07:52,973 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:07:54,441 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:07:59,732 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:07:59,756 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:08:00,914 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:08:06,168 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:08:06,168 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:08:06,305 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="1067c0c2-5ea9-4ea2-b3ed-3ca03cb3d483")>
+2020-01-11 17:08:06,306 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:08:07,976 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:08:10,683 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:08:13,454 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:08:16,216 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:08:16,578 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:08:18,111 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'python')]")
+2020-01-11 17:08:20,869 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'python')]")
+2020-01-11 17:09:27,092 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="a669a0ba-d52f-4cf2-bae3-566aeb815883")>
+2020-01-11 17:09:27,092 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:09:30,596 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:09:31,978 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:09:37,267 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:09:37,289 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:09:38,565 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:09:43,362 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:09:43,362 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:09:43,500 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="a669a0ba-d52f-4cf2-bae3-566aeb815883")>
+2020-01-11 17:09:43,501 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:09:45,190 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:09:47,946 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:09:50,776 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:09:53,567 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:09:53,929 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:09:55,044 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:09:57,843 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:00,626 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:03,347 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:06,129 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:08,889 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:11,687 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:14,413 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:17,188 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:19,988 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:22,781 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:25,580 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:28,298 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:31,029 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:33,887 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:36,673 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:39,439 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:10:42,251 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:08,148 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="948af061-58bd-4f75-8863-dd30f1091541")>
+2020-01-11 17:14:08,149 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:14:11,668 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:14:13,132 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:14:18,024 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:14:18,040 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:14:19,242 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:14:24,001 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:14:24,001 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:14:24,854 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="948af061-58bd-4f75-8863-dd30f1091541")>
+2020-01-11 17:14:24,854 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:14:26,354 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:14:29,127 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:14:31,880 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:14:34,650 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:14:34,987 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:14:36,835 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:39,616 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:42,368 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:45,109 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:47,875 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:50,627 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:53,330 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:56,044 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:14:58,801 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:01,613 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:04,290 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:07,067 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:09,838 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:12,598 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:15,400 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:18,149 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:20,865 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:23,591 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:26,348 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:29,133 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:31,848 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:34,613 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:37,348 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:40,152 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:42,937 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:45,699 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:48,501 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:51,247 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:54,018 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:56,796 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:15:59,532 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:02,368 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:05,128 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:07,914 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:10,724 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:13,465 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:16,218 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:18,990 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:21,798 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:24,546 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:27,319 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:30,087 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:32,843 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:35,575 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:38,317 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:41,150 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:43,905 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:46,698 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:49,450 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:52,172 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:54,924 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:16:57,666 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:00,428 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:03,156 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:05,882 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:08,650 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:11,384 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:17:14,121 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'机器学习')]")
+2020-01-11 17:18:13,018 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="948c3308-b0b2-4d8b-a17e-064b7ffc0679")>
+2020-01-11 17:18:13,018 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:18:16,558 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:18:18,111 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:18:22,993 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:18:23,010 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:18:24,154 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:18:29,311 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:18:29,311 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:18:47,090 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="25600f5e-ac95-49ca-8dcd-2ec18aa99bb5")>
+2020-01-11 17:18:47,090 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:18:50,516 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:18:51,939 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:18:57,207 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:18:57,226 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:18:58,410 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:19:03,673 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:19:03,673 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:19:03,805 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="25600f5e-ac95-49ca-8dcd-2ec18aa99bb5")>
+2020-01-11 17:19:03,806 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:19:05,592 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:19:08,346 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:19:11,139 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:19:13,895 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'python')]")
+2020-01-11 17:19:14,231 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:19:15,322 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:18,071 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:20,850 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:23,617 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:26,373 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:29,099 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:31,829 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:34,573 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:37,342 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:40,066 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:42,853 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:45,603 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:48,408 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:51,175 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:53,934 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:56,704 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:19:59,455 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:02,203 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:05,076 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:07,915 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:10,690 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:13,412 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:16,141 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:18,915 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:20:21,616 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'windows10')]")
+2020-01-11 17:21:30,643 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="27d6844a-cb3e-48af-b34d-59c8881369db")>
+2020-01-11 17:21:30,643 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:21:34,332 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:21:35,893 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:21:40,690 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:21:40,708 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:21:41,949 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:22:14,698 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="00c79768-8397-47a2-a139-53205941f6e7")>
+2020-01-11 17:22:14,698 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:22:18,206 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:22:19,664 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:22:24,615 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:22:24,632 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:22:25,849 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:22:31,030 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:22:31,030 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:22:31,277 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="00c79768-8397-47a2-a139-53205941f6e7")>
+2020-01-11 17:22:31,278 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:22:32,815 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:22:35,550 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:22:38,342 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:22:39,272 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:22:40,324 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:43,122 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:45,952 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:48,749 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:51,465 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:54,234 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:56,983 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:22:59,797 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:02,496 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:05,270 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:08,062 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:10,839 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:13,600 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:16,338 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:19,053 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:21,786 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:24,493 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:27,231 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:29,966 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:32,786 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:35,516 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:23:38,276 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")
+2020-01-11 17:29:41,689 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="8a70f82f8115d4332a2b6611b416a163")>
+2020-01-11 17:29:41,690 INFO [root] [page_mp_login.py (page_mp_login:34] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246810
+2020-01-11 17:29:41,691 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2020-01-11 17:29:41,701 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:29:41,726 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入手机号']") 元素 执行输入操作：13812345678
+2020-01-11 17:29:41,818 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2020-01-11 17:29:41,828 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:29:41,849 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='验证码']") 元素 执行输入操作：246810
+2020-01-11 17:29:42,900 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='登录']/..") 元素 执行点击操作
+2020-01-11 17:29:42,900 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='登录']/..")
+2020-01-11 17:29:43,103 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user-name')
+2020-01-11 17:29:43,648 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.user-name')元素文本值：13812345678
+2020-01-11 17:29:43,648 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user-name')
+2020-01-11 17:30:05,204 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="dd4eae92201b822d7c39f00648c63aab")>
+2020-01-11 17:30:05,204 INFO [root] [page_mp_login.py (page_mp_login_success:41] - 正在调用自媒体登录成功业务方法，用户名：13812345678 密码：246810
+2020-01-11 17:30:05,204 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2020-01-11 17:30:05,226 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:05,247 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入手机号']") 元素 执行输入操作：13812345678
+2020-01-11 17:30:05,347 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2020-01-11 17:30:05,356 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:05,376 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='验证码']") 元素 执行输入操作：246810
+2020-01-11 17:30:06,428 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='登录']/..") 元素 执行点击操作
+2020-01-11 17:30:06,428 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='登录']/..")
+2020-01-11 17:30:06,522 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="dd4eae92201b822d7c39f00648c63aab")>
+2020-01-11 17:30:08,524 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//div[@class='menu-wrapper']//*[text()='内容管理']") 元素 执行点击操作
+2020-01-11 17:30:08,524 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//div[@class='menu-wrapper']//*[text()='内容管理']")
+2020-01-11 17:30:09,648 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[contains(text(),'发布文章')]") 元素 执行点击操作
+2020-01-11 17:30:09,648 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-01-11 17:30:09,742 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2020-01-11 17:30:10,267 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:10,289 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='文章名称']") 元素 执行输入操作：bj-test17-004
+2020-01-11 17:30:10,510 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2020-01-11 17:30:10,545 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#tinymce')
+2020-01-11 17:30:10,559 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:10,577 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', '#tinymce') 元素 执行输入操作：今天晚上炖火锅！
+2020-01-11 17:30:10,742 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='自动']") 元素 执行点击操作
+2020-01-11 17:30:10,742 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='自动']")
+2020-01-11 17:30:10,803 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', "[placeholder='请选择']") 元素 执行点击操作
+2020-01-11 17:30:10,803 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请选择']")
+2020-01-11 17:30:11,891 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='数据库']") 元素 执行点击操作
+2020-01-11 17:30:11,891 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='数据库']")
+2020-01-11 17:30:12,059 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button.filter-item.el-button--primary') 元素 执行点击操作
+2020-01-11 17:30:12,059 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary')
+2020-01-11 17:30:12,109 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]")
+2020-01-11 17:30:12,648 INFO [root] [base.py (base_get_text:42] - 正在获取('xpath', "//*[contains(text(),'成功')]")元素文本值：新增文章成功
+2020-01-11 17:30:12,649 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]")
+2020-01-11 17:30:32,892 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="3c1470c5598f7b2cb7784622d8841e26")>
+2020-01-11 17:30:32,893 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
+2020-01-11 17:30:32,907 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:32,926 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
+2020-01-11 17:30:32,984 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
+2020-01-11 17:30:32,998 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:33,025 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
+2020-01-11 17:30:33,107 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
+2020-01-11 17:30:33,107 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
+2020-01-11 17:30:33,155 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
+2020-01-11 17:30:33,696 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.user_info>span')元素文本值：欢迎 管理员
+2020-01-11 17:30:33,696 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.user_info>span')
+2020-01-11 17:30:53,929 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="383806026646081ba7423c1bf2425759")>
+2020-01-11 17:30:53,929 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='用户名']")
+2020-01-11 17:30:53,943 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:53,960 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
+2020-01-11 17:30:54,020 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='密码']")
+2020-01-11 17:30:54,036 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:54,057 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
+2020-01-11 17:30:54,115 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '#inp1') 元素 执行点击操作
+2020-01-11 17:30:54,115 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '#inp1')
+2020-01-11 17:30:54,176 INFO [root] [base.py (__init__:11] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="383806026646081ba7423c1bf2425759")>
+2020-01-11 17:30:56,176 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()='信息管理']") 元素 执行点击操作
+2020-01-11 17:30:56,176 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()='信息管理']")
+2020-01-11 17:30:58,293 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@class='menu']//*[text()= '内容审核']") 元素 执行点击操作
+2020-01-11 17:30:58,293 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='menu']//*[text()= '内容审核']")
+2020-01-11 17:30:58,514 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
+2020-01-11 17:30:58,548 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:58,588 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
+2020-01-11 17:30:58,714 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
+2020-01-11 17:30:58,724 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:30:58,742 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
+2020-01-11 17:30:58,792 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
+2020-01-11 17:30:58,792 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
+2020-01-11 17:31:00,850 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
+2020-01-11 17:31:01,312 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
+2020-01-11 17:31:01,312 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
+2020-01-11 17:31:04,376 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
+2020-01-11 17:31:04,415 INFO [root] [base.py (base_get_text:42] - 正在获取('css selector', '.cell>span')元素文本值：1215837745750999040
+2020-01-11 17:31:04,415 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.cell>span')
+2020-01-11 17:31:04,447 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[text()='通过']/..") 元素 执行点击操作
+2020-01-11 17:31:04,448 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2020-01-11 17:31:04,590 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.el-button--primary') 元素 执行点击操作
+2020-01-11 17:31:04,591 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.el-button--primary')
+2020-01-11 17:31:10,047 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
+2020-01-11 17:31:10,055 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:31:10,076 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 文章名称']") 元素 执行输入操作：bj-test17-004
+2020-01-11 17:31:10,198 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
+2020-01-11 17:31:10,206 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:31:10,225 INFO [root] [base.py (base_input:31] - 正在给 ('css selector', "[placeholder='请输入: 频道']") 元素 执行输入操作：数据库
+2020-01-11 17:31:10,269 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@placeholder='请选择状态']") 元素 执行点击操作
+2020-01-11 17:31:10,269 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@placeholder='请选择状态']")
+2020-01-11 17:31:12,330 INFO [root] [base.py (base_finds:21] - 正在查找元素：('css selector', 'ul>li')
+2020-01-11 17:31:12,810 INFO [root] [base.py (base_click:37] - 正在对 ('css selector', '.find') 元素 执行点击操作
+2020-01-11 17:31:12,810 INFO [root] [base.py (base_find:16] - 正在查找元素：('css selector', '.find')
+2020-01-11 17:31:15,875 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[contains(text(),'1215837745750999040')]")
+2020-01-11 17:31:19,009 ERROR [root] [test004_mis_audit.py (test_article_audit:38] - assert False
+ +  where False = <bound method PageMisAudit.page_assert_success of <page.page_mis_audit.PageMisAudit object at 0x03FD1890>>(title='bj-test17-004', channel='数据库')
+ +    where <bound method PageMisAudit.page_assert_success of <page.page_mis_audit.PageMisAudit object at 0x03FD1890>> = <page.page_mis_audit.PageMisAudit object at 0x03FD1890>.page_assert_success
+ +      where <page.page_mis_audit.PageMisAudit object at 0x03FD1890> = <scripts.test004_mis_audit.TestMisAudit object at 0x03FD1D50>.audit
+2020-01-11 17:31:19,009 ERROR [root] [base.py (base_get_img:47] - 出现异常！正在截图操作
+2020-01-11 17:31:19,421 ERROR [root] [base.py (__base_write_img:55] - 异常处理！正在截图写入报告
+2020-01-11 17:31:34,594 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="ed92c7fa-e8ec-452d-90bc-a2b789b0f128")>
+2020-01-11 17:31:34,595 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:31:38,172 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:31:39,596 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:31:44,481 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:31:44,499 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:31:45,739 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:31:50,473 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:31:50,473 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:31:50,609 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='3' and contains(@text,'我的')]")
+2020-01-11 17:32:01,231 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="01e6e2eb-c4dc-4d8d-82b4-2b90eaf435fd")>
+2020-01-11 17:32:01,232 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+2020-01-11 17:32:04,777 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:32:06,202 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+2020-01-11 17:32:11,102 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+2020-01-11 17:32:11,126 INFO [root] [base.py (base_input:28] - 正在执行清空操作
+2020-01-11 17:32:12,336 INFO [root] [base.py (base_input:31] - 正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+2020-01-11 17:32:17,546 INFO [root] [base.py (base_click:37] - 正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+2020-01-11 17:32:17,546 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+2020-01-11 17:32:17,678 INFO [root] [base.py (__init__:11] - 正在初始化driver:<appium.webdriver.webdriver.WebDriver (session="01e6e2eb-c4dc-4d8d-82b4-2b90eaf435fd")>
+2020-01-11 17:32:17,680 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+2020-01-11 17:32:19,244 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:32:21,970 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:32:24,700 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//android.widget.HorizontalScrollView//*[contains(@text,'android')]")
+2020-01-11 17:32:25,690 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']")
+2020-01-11 17:32:26,597 INFO [root] [base.py (base_find:16] - 正在查找元素：('xpath', "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'减肥')]")

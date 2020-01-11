@@ -11,5 +11,4 @@ def read_yaml(filename):
         return arr
 
 
-if __name__ == '__main__':
-    print(read_yaml("mp_login.yaml"))
+

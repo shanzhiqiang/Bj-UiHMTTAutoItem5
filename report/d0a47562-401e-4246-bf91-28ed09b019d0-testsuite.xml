@@ -1,0 +1,172 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1578734964958" stop="1578735149258">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1578734964958" status="passed" stop="1578734983663">
+      <name>test001_mp_login.TestMpLogin.test_mp_login[13812345678-246810-13812345678]</name>
+      <attachments>
+        <attachment source="26029a3c-d9e1-4a2b-a962-f7a8bb0194b8-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="9d2c13d8-d26d-4b5f-a2db-47c06a58633f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578734987142" status="passed" stop="1578735012669">
+      <name>test002_mp_article.TestMpArticle.test_mp_article[bj-test17-004-\u4eca\u5929\u665a\u4e0a\u7096\u706b\u9505\uff01-\u65b0\u589e\u6587\u7ae0\u6210\u529f]</name>
+      <attachments>
+        <attachment source="1c566f3a-dcdf-4206-b6ee-4b85e4b94b37-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="bbab58e2-4701-4f7b-98a2-ad4f32dddb8e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578735014903" status="passed" stop="1578735033714">
+      <name>test003_mis_login.TestMisLogin.test_mis_login[testid-testpwd123-\u7ba1\u7406\u5458]</name>
+      <attachments>
+        <attachment source="89f188f2-6083-47c7-b78b-ceca12e103ac-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="d97d15ca-da65-4f5d-9dc6-a75dd96ef9a0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578735035927" status="failed" stop="1578735079479">
+      <name>test004_mis_audit.TestMisAudit.test_article_audit</name>
+      <failure>
+        <message>AssertionError: assert False
+ +  where False = &lt;bound method PageMisAudit.page_assert_success of &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;&gt;(title='bj-test17-004', channel='数据库')
+ +    where &lt;bound method PageMisAudit.page_assert_success of &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;&gt; = &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;.page_assert_success
+ +      where &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt; = &lt;scripts.test004_mis_audit.TestMisAudit object at 0x03FD1D50&gt;.audit</message>
+        <stack-trace>self = &lt;scripts.test004_mis_audit.TestMisAudit object at 0x03FD1D50&gt;, title = 'bj-test17-004', channel = '数据库'
+
+    def test_article_audit(self, title=page.article_title, channel=page.article_channel):
+        # 调用审核业务方法
+        self.audit.page_mis_audit(title, channel)
+        try:
+            # 断言
+&gt;           assert self.audit.page_assert_success(title="bj-test17-004", channel="数据库")
+E           AssertionError: assert False
+E            +  where False = &lt;bound method PageMisAudit.page_assert_success of &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;&gt;(title='bj-test17-004', channel='数据库')
+E            +    where &lt;bound method PageMisAudit.page_assert_success of &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;&gt; = &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt;.page_assert_success
+E            +      where &lt;page.page_mis_audit.PageMisAudit object at 0x03FD1890&gt; = &lt;scripts.test004_mis_audit.TestMisAudit object at 0x03FD1D50&gt;.audit
+
+scripts\test004_mis_audit.py:35: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="fd7714d3-720a-406b-88e7-28e56bfe3f9b-attachment.png" title="错误原因：" type="image/png"/>
+        <attachment source="cbb40b2d-b2ee-4ec5-8e92-44f42078ae03-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="afe757d9-70aa-46d0-81f8-9bd9d550c3fb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578735086725" status="passed" stop="1578735112088">
+      <name>test005_app_loginn.TestAppLogin.test_app_login[13812345678-246810]</name>
+      <attachments>
+        <attachment source="ecf4ad09-6c8a-4f8b-88d7-fb16390c4254-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="4e8e6cd2-bc51-4d3f-aede-ca518fd6d487-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578735113875" status="failed" stop="1578735149258">
+      <name>test006_app_article.TestArticle.test_app_article</name>
+      <failure>
+        <message>Exception: </message>
+        <stack-trace>self = &lt;scripts.test006_app_article.TestArticle object at 0x03FF92F0&gt;
+
+    def test_app_article(self):
+        #调用查找文章方法
+&gt;       self.article.page_app_article(find_text="android",title_text="减肥")
+
+scripts\test006_app_article.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+page\page_app_article.py:18: in page_app_article
+    self.page_find_article(title_text)
+page\page_app_article.py:12: in page_find_article
+    self.base_app_down_to_up(page.app_article_area,title_text)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;page.page_app_article.PageAppArticle object at 0x03FEE3F0&gt;, area_loc = ('xpath', "//*[@bounds='[0,390][1080,1716]']"), find_text = '减肥'
+
+    def base_app_down_to_up(self, area_loc, find_text):
+        # 获取区域元素
+        el = self.base_find(area_loc)
+    
+        # 获取元素宽高
+        size = el.size
+        width = size.get("width")
+        height = size.get("height")
+        # 计算 start_x,start_y,end_x,end_y
+        start_x = width * 0.5
+        start_y = height * 0.85
+        end_x = width * 0.5
+        end_y = height * 0.15
+        # 组合find_text包含的元素定位信息
+        #//*[@bounds='[0,390][1080,1716]']表示父级频道区域框的属性
+        loc = By.XPATH, "//*[@bounds='[0,390][1080,1716]']//*[contains(@text,'{}')]".format(find_text)
+        # 获取当前页面结构
+        page_source = self.driver.page_source
+        while True:
+            # 首先查找一次当前页面是否存在，要找的元素
+            try:
+                el = self.base_find(loc, timeout=2)
+                print("找到的文章标题为：{}".format(el.text))
+                el.click()
+                # 找到后就可以跳出循环额
+                break
+    
+            except:
+                # 没找到就继续找，滑动
+                self.driver.swipe(start_x, start_y, end_x, end_y, 2000)
+    
+            if page_source == self.driver.page_source:
+&gt;               raise Exception
+E               Exception
+
+base\app_base.py:81: Exception</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="dff50014-0145-404b-bdfa-9a8184a7d38c-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="92c6c595-481f-40a4-9c89-b37847f246e3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12572-MainThread"/>
+        <label name="host" value="DESKTOP-V53GKO8"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,11 @@
+base.py                     16 INFO     正在查找元素：('css selector', "[placeholder='用户名']")
+base.py                     28 INFO     正在执行清空操作
+base.py                     31 INFO     正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
+base.py                     16 INFO     正在查找元素：('css selector', "[placeholder='密码']")
+base.py                     28 INFO     正在执行清空操作
+base.py                     31 INFO     正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
+base.py                     37 INFO     正在对 ('css selector', '#inp1') 元素 执行点击操作
+base.py                     16 INFO     正在查找元素：('css selector', '#inp1')
+base.py                     16 INFO     正在查找元素：('css selector', '.user_info>span')
+base.py                     42 INFO     正在获取('css selector', '.user_info>span')元素文本值：欢迎 管理员
+base.py                     16 INFO     正在查找元素：('css selector', '.user_info>span')

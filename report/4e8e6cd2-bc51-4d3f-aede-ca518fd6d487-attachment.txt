@@ -1,0 +1,9 @@
+base.py                     16 INFO     正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+base.py                     28 INFO     正在执行清空操作
+base.py                     31 INFO     正在给 ('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素 执行输入操作：13812345678
+base.py                     16 INFO     正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+base.py                     28 INFO     正在执行清空操作
+base.py                     31 INFO     正在给 ('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素 执行输入操作：246810
+base.py                     37 INFO     正在对 ('xpath', "//*[@index='4' and @class='android.widget.Button']") 元素 执行点击操作
+base.py                     16 INFO     正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+base.py                     16 INFO     正在查找元素：('xpath', "//*[@index='3' and contains(@text,'我的')]")
